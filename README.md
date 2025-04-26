@@ -102,7 +102,7 @@ Add images, GIFs, or screenshots if helpful!
 ## 📽️ Demo & Deliverables
 
 - **Demo Video Link:** [Paste YouTube or Loom link here]  
-- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]  
+- **Pitch Deck / PPT Link:** [[Paste Google Slides / PDF link here]](https://docs.google.com/presentation/d/1LizKfw4M4Doi4U4NBu5wFmnHpw03wyYk/edit?usp=drive_link&ouid=112702827715597108556&rtpof=true&sd=true)  
 
 ---
 
