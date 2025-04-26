@@ -176,9 +176,15 @@ Allow professionals to monitor, customize, and recommend diets for clients/patie
 
 ## 📎 Resources / Credits
 
-- APIs or datasets used  
-- Open source libraries or tools referenced  
-- Acknowledgements  
+- APIs or datasets used
+  Groq API for LLaMA 3 – Used for lightning-fast inference and intelligent reasoning behind personalized meal, fitness, and restaurant suggestions. 
+- Open source libraries or tools referenced
+  LLaMA 3 – Meta’s large language model for intelligent reasoning
+  Groq Cloud – for ultra-fast AI inference
+- Acknowledgements
+  Thanks to the Meta AI and Groq teams for providing access to cutting-edge AI tools
+  Inspired by real-world challenges in personalized health and wellness
+  Special thanks to The NameSpace Community and mentors for guidance and support
 
 ---
 
