@@ -126,10 +126,10 @@ Add images, GIFs, or screenshots if helpful!
 ### Local Setup:
 ```bash
 # Clone the repo
-git clone [https://github.com/your-team/project-name
-](https://github.com/AbuzarMohd/hackhazards25--repository)
+git clone https://github.com/AbuzarMohd/hackhazards25--repository
 # Install dependencies
-cd project-name
+cd hackhazards25--repository
+
 pip install -r https://raw.githubusercontent.com/AbuzarMohd/hackhazards25--repository/main/requirements.txt
 
 
