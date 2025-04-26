@@ -168,7 +168,7 @@ Add support for regional languages and voice interaction for better accessibilit
 🧑‍⚕️ Doctor & Dietician Mode (Pro version)
 Allow professionals to monitor, customize, and recommend diets for clients/patients.
 
-![image](https://github.com/user-attachments/assets/6a41f2f4-ea1b-4e55-a084-a4131f461e0b)
+
 
 ---
 
