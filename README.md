@@ -130,10 +130,12 @@ git clone [https://github.com/your-team/project-name
 ](https://github.com/AbuzarMohd/hackhazards25--repository)
 # Install dependencies
 cd project-name
-npm install
+pip install -r https://raw.githubusercontent.com/AbuzarMohd/hackhazards25--repository/main/requirements.txt
+
 
 # Start development server
-npm run dev
+python app.py
+
 ```
 
 Provide any backend/frontend split or environment setup notes here.
