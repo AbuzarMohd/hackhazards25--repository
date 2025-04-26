@@ -2,36 +2,28 @@
 
 # 🚀 Project Title
 
-> A one-line tagline or mission statement for your project.
-
+> NutriNavigator: Personalized Diet, Restaurant & Workout Recommendations Using AI
 ---
 
 ## 📌 Problem Statement
 
-Select the problem statement number and title from the official list given in Participant Manual.
-
-**Example:**  
-**Problem Statement 7 – Transform the Future of Rural Commerce**
-
+Problem Dtatement 1 - Weave AI eith Groq
+Build a creative and interactive multimodal application powered by Groq, leveraging its capabilities to solve real-world problems with a focus on user experience and innovation
 ---
 
 ## 🎯 Objective
 
-What problem does your project solve, and who does it serve?  
-Briefly describe the real-world use case and the value it provides.
-
+This project addresses the challenge of managing personalized health, diet, and fitness goals in a fast-paced world where one-size-fits-all solutions often fall short. It serves health-conscious individuals, especially those with specific medical conditions, allergies, or dietary restrictions, by offering intelligent, hyper-personalized guidance.
+Imagine a user with diabetes, a gluten allergy, and a preference for South Indian cuisine. Instead of manually researching recipes or restaurants, the assistant instantly creates a customized meal plan, recommends nearby dining options, and provides a fitness routine aligned with their health profile. By leveraging LLaMA 3 on Groq Cloud, the system delivers lightning-fast, intelligent suggestions, making health management seamless, accessible, and tailored to real-life needs.
 ---
 
 ## 🧠 Team & Approach
 
-### Team Name:  
-`Your team name here`
+
 
 ### Team Members:  
-- Name 1 (GitHub / LinkedIn / Role)  
-- Name 2  
-- Name 3  
-*(Add links if you want)*
+- Mohd Abuzar ([GitHub](https://github.com/AbuzarMohd))  
+  
 
 ### Your Approach:  
 - Why you chose this problem  
