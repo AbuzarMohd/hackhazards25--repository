@@ -32,35 +32,35 @@ Imagine a user with diabetes, a gluten allergy, and a preference for South India
 **Why we chose this problem:** 
 We saw a gap in truly personalized health and diet support—most apps are generic, slow, or require too much manual input. With rising health awareness and diverse dietary needs (e.g., PCOS, gluten intolerance, cultural preferences), we wanted to create an assistant that feels like a real coach, not just a food tracker.
 
----
 
-** Key challenges we addressed:**  
+
+**Key challenges we addressed:**  
 - **Hyper-personalization at scale:** Building logic that adapts to each unique user profile while staying fast and relevant.  
 - **Real-time regional suggestions:** Integrating local data (like nearby restaurants) and matching it with dietary restrictions.  
 - **Balancing health and taste:** Ensuring meal and workout suggestions are not only healthy but enjoyable and culturally familiar.  
 - **Speed + intelligence:** Using LLaMA 3 on Groq Cloud to handle complex reasoning *without* sacrificing performance.
 
----
 
-** Pivots, brainstorms, or breakthroughs:**  
+
+**Pivots, brainstorms, or breakthroughs:**  
 Early on, we realized just generating a meal plan wasn’t enough—users wanted context. So we added reasoning behind recommendations ("why this food/why this workout"). A key breakthrough was designing modular inputs (e.g., allergies, medical conditions, cuisine style) that flow into one seamless experience. Using Groq’s ultra-fast inference unlocked the power to deliver this interactively in real time.
 
 ---
 
 
----
+
 
 ## 🛠️ Tech Stack
 
 ### Core Technologies Used:
-- Frontend:
+- Frontend: HTML5
 - Backend:
 - Database:
-- APIs:
-- Hosting:
+- APIs: LLaMA 3
+- Hosting: Local System
 
 ### Sponsor Technologies Used (if any):
-- [ ] **Groq:** _How you used Groq_  
+- [✅ ] **Groq:** _How you used Groq_  
 - [ ] **Monad:** _Your blockchain implementation_  
 - [ ] **Fluvio:** _Real-time data handling_  
 - [ ] **Base:** _AgentKit / OnchainKit / Smart Wallet usage_  
@@ -73,11 +73,28 @@ Early on, we realized just generating a meal plan wasn’t enough—users wanted
 
 Highlight the most important features of your project:
 
-- ✅ Feature 1  
-- ✅ Feature 2  
-- ✅ Feature 3  
-- ✅ Feature 4  
+---
 
+### ✅ **Feature 1: Smart, Goal-Oriented Meal Planning**  
+Generates daily meal plans based on user inputs like medical conditions, allergies, and regional food preferences—backed by reasoning, not just templates.
+
+
+
+### ✅ **Feature 2: Real-Time Restaurant Suggestions**  
+Uses location and dietary filters to recommend nearby restaurants that align with user health needs and cuisine preferences.
+
+
+
+### ✅ **Feature 3: Adaptive Fitness Routines**  
+Custom workout plans based on body metrics, health conditions, and fitness goals—auto-adjusted over time as progress is made.
+
+
+
+### ✅ **Feature 4: Instant AI Reasoning & Personalization (LLaMA 3 + Groq)**  
+Each suggestion (meal, restaurant, or fitness) comes with real-time, intelligent explanations powered by LLaMA 3 running on Groq Cloud for ultra-fast AI inference.
+
+
+---
 Add images, GIFs, or screenshots if helpful!
 
 ---
@@ -91,9 +108,9 @@ Add images, GIFs, or screenshots if helpful!
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
-- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
-- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
+- [✅ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
+- [✅ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
+- [✅ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
 
 *(Mark with ✅ if completed)*
 
@@ -102,8 +119,8 @@ Add images, GIFs, or screenshots if helpful!
 ## 🧪 How to Run the Project
 
 ### Requirements:
-- Node.js / Python / Docker / etc.
-- API Keys (if any)
+- Flask / Python / LangChain.
+- API Keys (Mentioned in code)
 - .env file setup (if needed)
 
 ### Local Setup:
@@ -127,9 +144,31 @@ Provide any backend/frontend split or environment setup notes here.
 
 List improvements, extensions, or follow-up features:
 
-- 📈 More integrations  
-- 🛡️ Security enhancements  
-- 🌐 Localization / broader accessibility  
+
+
+✅ Calorie & Nutrient Tracking
+Add detailed calorie, protein, carb, and fat breakdowns for each recommended meal.
+Support for daily macro/micro tracking based on user goals (e.g., weight loss, muscle gain).
+
+📍 Restaurant Proximity & Ratings
+Show distance and travel time from the user's location to recommended restaurants.
+Integrate ratings, menus, and reviews via Google Maps or Zomato APIs.
+
+🧬 Deeper Health Integration
+Sync with wearables (e.g., Fitbit, Apple Health) for real-time health insights.
+Adjust plans dynamically based on steps, heart rate, and sleep quality.
+
+🗓️ Weekly Planner & Reminders
+Offer a 7-day meal and workout planner with shopping lists.
+Enable notifications and reminders for meals, hydration, and workouts.
+
+🌐 Multi-language & Voice Assistant Support
+Add support for regional languages and voice interaction for better accessibility.
+
+🧑‍⚕️ Doctor & Dietician Mode (Pro version)
+Allow professionals to monitor, customize, and recommend diets for clients/patients.
+
+![image](https://github.com/user-attachments/assets/6a41f2f4-ea1b-4e55-a084-a4131f461e0b)
 
 ---
 
